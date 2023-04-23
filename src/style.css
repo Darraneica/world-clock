@@ -1,7 +1,55 @@
 body {
-  background: lavender;
+  background: white;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: rgb(228, 221, 221);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 60px 0;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
 }
