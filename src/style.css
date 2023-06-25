@@ -1,11 +1,12 @@
 body {
-  background: #bbadff;
-  font-family: sans-serif;
+  background: #c5e6eb;
+  font-family: "Staatliches", cursive;
+  padding: 20px 40px;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: #dab6fc;
+  background-color: #84d6e3;
   padding: 30px;
   border-radius: 10px;
   margin: 60px 0;
@@ -21,8 +22,7 @@ select {
 }
 
 h1 {
-  text-align: center;
-  font-family: sans-serif;
+  font-family: "Staatliches", cursive;
   font-size: 36px;
 }
 .city {
@@ -52,4 +52,8 @@ h1 {
 h2 {
   margin: 0 0 10px;
   font-size: 28px;
+}
+
+.clock {
+  font-size: 40px;
 }
